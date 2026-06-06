@@ -7,9 +7,9 @@ public class NumberGame {
 
         Random random = new Random();
         Scanner sc = new Scanner(System.in);
-        
+
         System.out.println("Welcome to Number Guessing Game");
-        
+
         int number = random.nextInt(100) + 1;
         int guess;
 
