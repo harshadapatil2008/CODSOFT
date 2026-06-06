@@ -1,3 +1,4 @@
+//CodSoft Java Internship-Task1
 import java.util.Random;
 import java.util.Scanner;
 
@@ -6,7 +7,9 @@ public class NumberGame {
 
         Random random = new Random();
         Scanner sc = new Scanner(System.in);
-
+        
+        System.out.println("Welcome to Number Guessing Game");
+        
         int number = random.nextInt(100) + 1;
         int guess;
 
