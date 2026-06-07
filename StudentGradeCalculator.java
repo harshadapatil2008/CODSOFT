@@ -1,8 +1,10 @@
+//CodSoft Java Internship-Task2
 import java.util.Scanner;
 
 public class StudentGradeCalculator {
     public static void main(String[] args) {
-
+       System.out.println("===== Student Grade Calculator =====");
+        System.out.println("welcome!");
         Scanner sc = new Scanner(System.in);
 
         int total = 0;
